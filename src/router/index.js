@@ -6,7 +6,7 @@ import not from "../lib-components/not.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/home",
     name: "Home",
     component: Home,
   },
