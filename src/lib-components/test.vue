@@ -11,7 +11,11 @@ export default {
       default: "Enter Button Text Here"
     }
   },
-  data() {}
+  data() { 
+    return {
+      
+    }
+  }
 };
 </script>
 
