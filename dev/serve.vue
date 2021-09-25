@@ -13,6 +13,9 @@ export default defineComponent({
 
 <template>
   <div id="app">
-    <libfiras-sample />
+    <router-link :to="{ name: 'Home' }">Home</router-link> 
+    <router-link :to="{ name: 'test' }">test</router-link>
+      <router-view />
+
   </div>
 </template>

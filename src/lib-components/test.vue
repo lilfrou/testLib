@@ -1,5 +1,5 @@
 <template>
-  <button class="btn-cta">{{ text }}</button>
+  <button @click="clickss" class="btn-cta">{{ text }}</button>
 </template>
 
 <script>
@@ -14,6 +14,11 @@ export default {
   data() { 
     return {
       loa:false
+    }
+  },
+  methods:{
+    clickss(){
+     this.$router.push({ name: 'Home'})
     }
   }
 };
