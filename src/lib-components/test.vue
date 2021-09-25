@@ -1,5 +1,10 @@
 <template>
+<div>
+    <router-link :to="{ name: 'Home' }">Home</router-link> 
+    <router-link :to="{ name: 'test' }">test</router-link>
+      <router-view />
   <button @click="clickss" class="btn-cta">{{ text }}</button>
+  </div>
 </template>
 
 <script>
